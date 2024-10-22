@@ -4,8 +4,9 @@
 
 body {
     background-color: #ffedd5;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
     margin: 0;
 }
 
@@ -50,7 +51,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 100%;
     width: 50vw;
     border-radius: 10px;
     padding: 20px;
